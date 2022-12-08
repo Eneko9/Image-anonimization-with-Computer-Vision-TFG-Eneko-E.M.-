@@ -6,7 +6,7 @@ from os import listdir
 
 #yoloPath = '/Users/mentxaka/yolov5' 
 #yoloPath = "/content/yolov5"
-yoloPath = r"C:\Users\eneko\yolov5"
+yoloPath = r"C:\Users\eneko\yolov5" 
 
 multiclassModel = fpd.loadYolo(yoloPath)
 

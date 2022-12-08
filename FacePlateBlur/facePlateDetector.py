@@ -12,7 +12,7 @@ relative = os.getcwd() + os.path.sep + "FacePlateBlur" #local
 #yoloPath = r"C:\Users\eneko\yolov5" #path yolo de Eneko
 
 def loadYolo(yoloPath):
-    weightsPath = relative + os.path.sep + "weights" + os.path.sep + "multiclass.pt" 
+    weightsPath = relative + os.path.sep + "weights" + os.path.sep + "best2.pt" 
     #weightsPath = "/Users/mentxaka/Github/TK-VisionArtificial/Face-PlateDetector/FaceBlur/weights/best.pt"
     return torch.hub.load(yoloPath, 'custom', path=weightsPath, source='local',force_reload=True)  # default
 
