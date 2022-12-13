@@ -20,8 +20,8 @@ start_time = time.time()*1000
 
 for image in os.listdir(inPATH):
     filename = inPATH + os.sep + image
-    points = fpd.multiclassDetection(filename,multiclassModel)
-    img = fpd.multiclassBoxing(cv2.imread(filename),points)
+    points, classes = fpd.detection(filename,multiclassModel)
+    img = fpd.hideObject(cv2.imread(filename),points,classes)
     cv2.imwrite(outPATH + os.path.sep + image,img)
 
 print("MultiClass --- %s miliseconds ---" % str((time.time()*1000 - start_time)))
