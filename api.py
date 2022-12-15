@@ -34,10 +34,10 @@ def detectorResponse(request: Request, file: UploadFile = File(...)):
     path = "static" + os.path.sep  + "pictures" + os.path.sep + f'{file.filename}'
     with open( path, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
-    yoloPath = os.getcwd() + "/yolov5"
+    yoloPath = os.getcwd() + "/yolov7"
     multiclassModel = fpd.loadYolo(yoloPath)
-    points = fpd.multiclassDetection(path,multiclassModel)
-    img = fpd.multiclassBoxing(cv2.imread(path),points)
+    points = fpd.detection(path,multiclassModel)
+    img = fpd.hideObject(cv2.imread(path),points)
     path =  relative + os.path.sep + "static" + os.path.sep + "results" + os.path.sep + f'{file.filename}'
     cv2.imwrite(path,img)
     path = "results/"+ f'{file.filename}'
