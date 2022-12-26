@@ -29,7 +29,7 @@ templates = Jinja2Templates(directory="templates")
 
 @app.get("/", response_class=HTMLResponse)
 def detector(request: Request):
-    return templates.TemplateResponse("uploadImg.html", {"request":request})
+    return templates.TemplateResponse("uploadImg2.html", {"request":request})
 
 @app.post("/detector/response/",  response_class=HTMLResponse)
 def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
