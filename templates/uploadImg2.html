@@ -1,8 +1,9 @@
 
 <img src="https://www.teknei.com/wp-content/uploads/2018/12/Teknei-logo-web.png" alt="Teknei Logo" class="logo">
+<h1 class = "title">Difuminar caras y matrículas</h1>
 <form action="/detector/response/" method="post"  data-animation="fadeInUp" data-delay="0" enctype="multipart/form-data">
     <input type="file" class="files" name="files" accept="image/*" multiple>
-    <p class="text">Drag your images or click this area.</p>
+    <p class="text">Arrastra aquí o haz click para subir imágenes.</p>
     <input type="submit" name="submit" value="Send image" class="submit" >
   </form>
 <style>
@@ -21,6 +22,10 @@
     }
     form:hover{
         border: 4px solid black;
+    }
+    .title{
+    text-align: center;
+    font-family: Arial;
     }
     .text{
     width: 100%;
@@ -64,6 +69,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
     }
 </style>
