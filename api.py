@@ -19,6 +19,9 @@ relative = os.getcwd()
 
 app = FastAPI()
 
+yoloPath = os.getcwd() + "/yolov7"
+multiclassModel = fpd.loadYolo(yoloPath)
+
 app.mount(
     "/static",
     StaticFiles(directory=Path(__file__).parent.absolute() / "static"),
@@ -42,8 +45,6 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     zipPath = relative + os.path.sep + "static" + os.path.sep + "detections.zip"
     if os.path.exists(zipPath):
         os.remove(zipPath)
-    yoloPath = os.getcwd() + "/yolov7"
-    multiclassModel = fpd.loadYolo(yoloPath)
     for file in files:
         path = "static" + os.path.sep  + "pictures" + os.path.sep + f'{file.filename}'
         with open( path, "wb") as buffer:
