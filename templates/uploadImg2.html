@@ -1,121 +1,21 @@
 
-<img src="https://www.teknei.com/wp-content/uploads/2018/12/Teknei-logo-web.png" alt="Teknei Logo" class="logo">
-<h1 id ="title" class = "title">Difuminar caras y matrículas</h1>
-<form action="/detector/response/" method="post"  data-animation="fadeInUp" data-delay="0" enctype="multipart/form-data">
-    <input type="file" id="files" name="files" accept="image/*" multiple onchange="FileDetails()">
-    <p id="text">Arrastra aquí o haz click para subir imágenes.</p>
-    <input id = "submit" type="submit" name="submit" value="Send images" class="submit" disabled onclick = "Loading()">
-  </form>
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="stylesheet" href="static\css\uploadStyle.css">
+</head>
+<body>
+    
 
-<script>
-    function FileDetails() {
+    <img src="https://www.teknei.com/wp-content/uploads/2018/12/Teknei-logo-web.png" alt="Teknei Logo" class="logo">
+    <h1 id ="title" class = "title">Difuminar caras y matrículas</h1>
+    <form id="myForm" action="/detector/response/" method="post"  data-animation="fadeInUp" data-delay="0" enctype="multipart/form-data">
+        <input type="file" id="files" name="files" accept="image/*" multiple onchange="FileDetails()">
+        <p id="text">Arrastra aquí o haz click para subir imágenes.</p>
+        <input id = "submit" type="submit" name="submit" value="Send images" class="submit" disabled>
+    </form>
 
-        // GET THE FILE INPUT.
-        var f = document.getElementById('files');
-
-        // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
-        if (f.files.length > 0) {
-            // RUN A LOOP TO CHECK EACH SELECTED FILE.
-            for (var i = 0; i <= f.files.length - 1; i++) {
-                    
-                var fname = f.files.item(i).name;      // THE NAME OF THE FILE.
-                extension = fname.split('.').pop();      // THE EXTENSION OF THE FILE.
-
-                if(extension == "png" || extension == "jpg" || extension == "jpeg"){
-                    if(f.files.length == 1){
-                        document.getElementById('text').innerHTML = 'Has seleccionado: <b>' + f.files.length + ' imágen.';
-                    }else{
-                        document.getElementById('text').innerHTML = 'Has seleccionado: <b>' + f.files.length + ' imágenes.';
-                    } 
-                    document.getElementById("submit").style.opacity = 1;
-                    document.getElementById("submit").disabled = false;
-                    document.getElementById("text").style.color = 'black';
-
-                }else{
-                    document.getElementById('text').innerHTML = 'Formato de archivo incorrecto, por favor seleccione una imágen.';
-                    document.getElementById("text").style.color = 'red';
-                    document.getElementById("submit").disabled = true;
-                }
-            }
-        }
-        else { 
-            alert('Please select a file.') 
-        }
-    }
-
-    function Loading(){
-        document.querySelector('*').style.opacity = 0.2; 
-        document.getElementById("title").innerHTML = 'Loading, please wait...';
-        
-
-    }
-</script>
-<style>
-    body{
-    background: white;
-    }
-    form{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -100px;
-    margin-left: -250px;
-    width: 500px;
-    height: 200px;
-    border: 4px dashed black;
-    }
-    form:hover{
-        border: 4px solid black;
-    }
-    .title{
-    text-align: center;
-    font-family: montserrat;
-    text-transform: uppercase;
-    }
-    #text{
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 170px;
-    color: black;
-    font-family: montserrat;
-    text-transform: uppercase;
-    }
-    #files{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    outline: none;
-    opacity: 0;
-    }
-    .submit{
-    margin: 0;
-    color: #fff;
-    background: #1f73e2;
-    border: none;
-    width: 508px;
-    height: 35px;
-    margin-top: -20px;
-    margin-left: -4px;
-    border-radius: 4px;
-    border-bottom: 4px solid #0b0d66;
-    transition: all .2s ease;
-    outline: none;
-    opacity: 0.3;
-    }
-    .submit:hover{
-    background: #3686c7;
-        color: #ffffff;
-    }
-    .submit:active{
-    border:0;
-    }
-    .logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    }
-</style>
+    <div id="loader" class="center-loader" style="display: none"></div>
+    <script src="static\js\uploadImg.js"></script>
+</body>

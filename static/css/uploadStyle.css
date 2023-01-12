@@ -1,0 +1,93 @@
+body{
+background: white;
+font-family: montserrat;
+}
+form{
+position: absolute;
+top: 50%;
+left: 50%;
+margin-top: -150px;
+margin-left: -250px;
+width: 500px;
+height: 200px;
+border: 1px solid rgb(51, 50, 50);
+border-radius: 10px;
+}
+form:hover{
+    border: 2px solid black;
+}
+.title{
+text-align: center;
+text-transform: uppercase;
+}
+#text{
+width: 100%;
+height: 100%;
+text-align: center;
+line-height: 170px;
+color: black;
+text-transform: uppercase;
+}
+#files{
+position: absolute;
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100%;
+outline: none;
+opacity: 0;
+}
+.submit{
+margin: 0;
+color: #fff;
+background: #1f73e2;
+border: none;
+width: 508px;
+height: 35px;
+margin-top: -20px;
+margin-left: -4px;
+border-radius: 4px;
+border-bottom: 4px solid #0b0d66;
+transition: all .2s ease;
+outline: none;
+opacity: 0.3;
+font-family: montserrat;
+}
+.submit:hover{
+background: #3686c7;
+    color: #ffffff;
+}
+.submit:active{
+border:0;
+}
+.logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 25%;
+}
+.center-loader {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+@keyframes loader {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(360deg);
+}
+}
+
+/* Apply the animation to the loader element */
+#loader {
+animation: loader 1s linear infinite;
+border: 6px solid #f3f3f3; /* Add a border */
+border-top: 6px solid #3498db; /* Change the color of the top border */
+border-radius: 50%; /* Make it circular */
+width: 50px; /* Set the width and height */
+height: 50px;
+margin: 0 auto; /* Center it horizontally */
+}
