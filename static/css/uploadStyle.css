@@ -4,7 +4,7 @@ font-family: montserrat;
 }
 form{
 position: absolute;
-top: 50%;
+top: 60%;
 left: 50%;
 margin-top: -150px;
 margin-left: -250px;
@@ -19,6 +19,7 @@ form:hover{
 .title{
 text-align: center;
 text-transform: uppercase;
+margin-bottom: 100px;
 }
 #text{
 width: 100%;
