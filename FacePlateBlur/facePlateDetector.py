@@ -4,32 +4,35 @@ import math
 import os
 import torch
 import traceback
+from ultralytics import YOLO
 
-#relative = os.getcwd() + os.path.sep + "Face-PlateDetector" + os.path.sep + "FacePlateBlur" #local
-relative = os.getcwd() + os.path.sep + "FacePlateBlur" #local
+relative = os.getcwd() + os.path.sep + "FacePlateBlur" #locals
 
-#yoloPath = '/Users/mentxaka/yolov5' #path yolo de Oier
-#yoloPath = r"C:\Users\eneko\yolov5" #path yolo de Eneko
-
-def loadYolo(yoloPath):
-    weightsPath = relative + os.path.sep + "weights" + os.path.sep + "bestv7.pt" 
-    return torch.hub.load(yoloPath,'custom', path_or_model=weightsPath, source='local',force_reload=True)  # default
+def loadYolo(weights):
+    model = YOLO(weights) #cargar el modelo de yolo
+    return model
 
 def detection(path, model):
-    results = model(path)
-    results.print()
+    results = model.predict(path, return_outputs= True)
     positionsArray = []
     classArray = []
     i = 0
-    while True:       
+    """ while True:       
         try:
-            x0, y0, x1, y1, _, classType = results.xyxy[0][i].numpy().astype(int)
+            x0, y0, x1, y1, _, classType = results.xyxy[0][i].numpy().astype(int) #v7 model, coming soon in v8
             x00,y00,x11,y11,classType = int(x0),int(y0), int(x1), int(y1), int(classType)
             positionsArray.append([(x00,y00),(x11,y11)])
             classArray.append(classType)
             i+=1
         except Exception:
-            break
+            break """
+    for output in results:
+        for detection in output['det']:
+            top_x, top_y, bottom_x, bottom_y, _, type = detection
+            topX,topY,bottomX,bottomY, classType= int(top_x),int(top_y), int(bottom_x), int(bottom_y), int(type)
+            positionsArray.append([(topX,topY),(bottomX,bottomY)])
+            classArray.append(classType)
+            i+=1
     return positionsArray, classArray
 
 def faceblur(img, width, height, x0, y0, x1, y1):
@@ -41,7 +44,6 @@ def hideObject(img,points,classes):
     index = 0
     for p in points:
         if(classes[index]==0):
-            mask = np.zeros(img.shape, dtype='uint8')
             width = p[1][0]-p[0][0]
             height = p[1][1]-p[0][1]
             mask_img = np.zeros(img.shape, dtype='uint8')

@@ -3,13 +3,14 @@ import cv2
 import time
 import os 
 from os import listdir
+from ultralytics import YOLO
+
 
 #yoloPath = '/Users/mentxaka/yolov5' 
 #yoloPath = "/content/yolov5"
 yoloPath = r"C:\Users\eneko\yolov7" 
 
-multiclassModel = fpd.loadYolo(yoloPath)
-
+multiclassModel = fpd.loadYolo(r"FacePlateBlur\weights\v8\best.pt")
 #inPATH = "/Users/mentxaka/Github/TK-VisionArtificial/Face-PlateDetector/Arona_persona.jpg"
 #outPATH = "/Users/mentxaka/Github/TK-VisionArtificial/Face-PlateDetector/mod_Arona_persona.jpg"
 
