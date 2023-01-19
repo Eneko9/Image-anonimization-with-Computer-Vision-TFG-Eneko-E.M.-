@@ -13,26 +13,20 @@ def loadYolo(weights):
     return model
 
 def detection(path, model):
-    results = model.predict(path, return_outputs= True)
+    results = model.predict(path)
     positionsArray = []
     classArray = []
     i = 0
-    """ while True:       
+    while True:       
         try:
-            x0, y0, x1, y1, _, classType = results.xyxy[0][i].numpy().astype(int) #v7 model, coming soon in v8
-            x00,y00,x11,y11,classType = int(x0),int(y0), int(x1), int(y1), int(classType)
+            x0, y0, x1, y1= results[0].boxes.xyxy.numpy().astype(int)[i]
+            cls = results[0].boxes.cls.numpy().astype(int)[i]
+            x00,y00,x11,y11,classType = int(x0),int(y0), int(x1), int(y1), int(cls)
             positionsArray.append([(x00,y00),(x11,y11)])
             classArray.append(classType)
             i+=1
         except Exception:
-            break """
-    for output in results:
-        for detection in output['det']:
-            top_x, top_y, bottom_x, bottom_y, _, type = detection
-            topX,topY,bottomX,bottomY, classType= int(top_x),int(top_y), int(bottom_x), int(bottom_y), int(type)
-            positionsArray.append([(topX,topY),(bottomX,bottomY)])
-            classArray.append(classType)
-            i+=1
+            break
     return positionsArray, classArray
 
 def faceblur(img, width, height, x0, y0, x1, y1):
