@@ -18,7 +18,7 @@ margin-right: auto;
 width: 25%;
 }
 button{
-margin: 0;
+margin-bottom: 20px;
 color: #fff;
 background: #1f73e2;
 border: none;
@@ -32,7 +32,14 @@ transition: all .2s ease;
 outline: none;
 font-family: montserrat;
 }
+#return{
+background: rgb(112, 109, 109);
+border-bottom: 4px solid #363638;
+}
+#return:hover{
+background: rgb(179, 178, 178);
+}
 button:hover{
-background: #3686c7;
-    color: #ffffff;
+background: #54a8ec;
+color: #ffffff;
 }

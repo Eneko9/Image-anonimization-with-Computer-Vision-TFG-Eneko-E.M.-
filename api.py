@@ -1,26 +1,19 @@
 from fastapi import FastAPI, File, UploadFile, Request, Form
 import shutil
 import os
-import io
 import cv2
-from starlette.responses import StreamingResponse
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from fastapi.encoders import jsonable_encoder
-from fastapi.responses import JSONResponse
 from pathlib import Path
-from pydantic import BaseModel
 import FacePlateBlur.facePlateDetector as fpd
 from typing import List
-from PIL import Image
-from ultralytics import YOLO
 relative = os.getcwd()
 
 app = FastAPI()
 
 multiclassModel = fpd.loadYolo(r"FacePlateBlur\weights\v8\best3.pt")
-#multiclassModel = YOLO("hola.pt") #YOLOv8 model load
+
 
 app.mount(
     "/static",
@@ -37,17 +30,10 @@ def detector(request: Request):
 @app.post("/detector/response/",  response_class=HTMLResponse)
 def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     
-    #delete de results, pictures and zip files in case they exist (from the previous execution)
-    resultsPath = relative + os.path.sep + "static" + os.path.sep + "results"
-    for f in os.listdir(resultsPath):
-        os.remove(os.path.join(resultsPath, f))
-    picPath = relative + os.path.sep + "static" + os.path.sep + "pictures"
-    for f in os.listdir(picPath):
-        os.remove(os.path.join(picPath, f))
     zipPath = relative + os.path.sep + "static" + os.path.sep + "detections.zip"
     if os.path.exists(zipPath):
         os.remove(zipPath)
-    
+
     #iterate in all the files recieved in order to detect and hide the plates and faces.
     for file in files:
         path = "static" + os.path.sep  + "pictures" + os.path.sep + f'{file.filename}'
@@ -62,4 +48,15 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     shutil.make_archive( relative + os.path.sep + "static" + os.path.sep +'detections', 'zip', relative + os.path.sep + "static" + os.path.sep + "results")
     path = "detections.zip"
 
+    #delete de results, picture files in case they exist
+    resultsPath = relative + os.path.sep + "static" + os.path.sep + "results"
+    for f in os.listdir(resultsPath):
+        os.remove(os.path.join(resultsPath, f))
+    picPath = relative + os.path.sep + "static" + os.path.sep + "pictures"
+    for f in os.listdir(picPath):
+        os.remove(os.path.join(picPath, f))
+    
     return templates.TemplateResponse("returnImg.html",{"request":request,"path": path})
+
+
+    

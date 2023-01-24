@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <title>Deteccción de caras y matrículas</title>
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link rel="stylesheet" href="..\..\static\css\returnStyle.css">
 </head>
@@ -14,6 +15,10 @@
       <br>
       <br>
       <a download="your-pictures.zip" href={{ url_for('static', path=path) }} title="ImageName">
-      <button alt="ImageName" src={{ url_for('static', path=path) }}>Download</button>            </div> <!-- end features-image -->
-  </div> <!-- end col-md-6 -->
+      <button alt="download" src={{ url_for('static', path=path) }}>Descarga las imágenes</button>   
+      <form action="{{ url_for('detector') }}">  
+        <button alt = "return" id = "return">Volver al inicio</button>  
+     </form>         
+    </div>
+  </div>
 </body>
