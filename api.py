@@ -55,7 +55,11 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     picPath = relative + os.path.sep + "static" + os.path.sep + "pictures"
     for f in os.listdir(picPath):
         os.remove(os.path.join(picPath, f))
-    
+    yoloAnnotations = relative + os.path.sep + "runs" + os.path.sep + "detect" + os.path.sep + "predict" + os.path.sep + "labels"
+    yoloAnnotations2 = relative + os.path.sep + "static" + os.path.sep + "annotationResults"
+    for f in os.listdir(yoloAnnotations):
+        os.rename(os.path.join(yoloAnnotations, f),os.path.join(yoloAnnotations2, f))
+    shutil.rmtree(relative + os.path.sep + "runs", ignore_errors=False, onerror=None)
     return templates.TemplateResponse("returnImg.html",{"request":request,"path": path})
 
 

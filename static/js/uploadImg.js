@@ -32,6 +32,7 @@ function FileDetails() {
                 document.getElementById('text').innerHTML = 'Formato de archivo incorrecto';
                 document.getElementById("text").style.color = 'red';
                 document.getElementById("submit").disabled = true;
+                break;
             }
         }
     }
