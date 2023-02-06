@@ -6,19 +6,26 @@
   <link rel="stylesheet" href="..\..\static\css\returnStyle.css">
 </head>
 
-<body>
-  <img src="https://www.teknei.com/wp-content/uploads/2018/12/Teknei-logo-web.png" alt="Teknei Logo" class="logo">
-  <div class="results">
-    <div data-delay="0">
-      <br>
-      <h1>¡Tus imágenes están listas!</h1>
-      <br>
-      <br>
-      <a download="your-pictures.zip" href={{ url_for('static', path=path) }} title="ImageName">
-      <button alt="download" src={{ url_for('static', path=path) }}>Descarga las imágenes</button>   
-      <form action="{{ url_for('detector') }}">  
-        <button alt = "return" id = "return">Volver al inicio</button>  
-     </form>         
+<body onload="loadImgs()">
+  <header>
+    <img src="https://www.teknei.com/wp-content/uploads/2018/12/Teknei-logo-web.png" alt="Teknei Logo" class="logo">
+    <h1>¡Tus imágenes están listas!</h1>
+  </header>
+  <main>
+    <div class="results">
+      <div class = "imgShow">
+        <img id="imagenPrincipal" src="" alt="Image 1">
+        <div id="imagenesSecundarias"></div>
+      </div>
+      <div data-delay="0">
+        <a download="your-pictures.zip" href={{ url_for('static', path=path) }} title="ImageName">
+        <button alt="download" src={{ url_for('static', path=path) }}>Descarga las imágenes</button></a> 
+        <form action="{{ url_for('detector') }}">  
+          <button alt = "return" id = "return">Volver al inicio</button>  
+        </form>         
+      </div>
     </div>
-  </div>
+  </main>
+  <p id="filenameArray" hidden>{{filenames}}</p>
+  <script src="..\..\static\js\returnImgs.js"></script>
 </body>

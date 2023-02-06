@@ -4,16 +4,21 @@
     <title>Deteccción de caras y matrículas</title>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="static\css\uploadStyle.css">
+    <link rel="stylesheet" href="..\..\static\css\uploadStyle.css">
 </head>
 <body>
-    <img src="https://www.teknei.com/wp-content/uploads/2018/12/Teknei-logo-web.png" alt="Teknei Logo" class="logo">
-    <h1 id ="title" class = "title">Difuminar caras y matrículas</h1>
-    <form id="myForm" action="/detector/response/" method="post"  data-animation="fadeInUp" data-delay="0" enctype="multipart/form-data">
-        <input type="file" id="files" name="files" accept="image/*" multiple onchange="FileDetails()">
-        <p id="text">Arrastra aquí o haz click para subir imágenes.</p>
-        <input id = "submit" type="submit" name="submit" value="Enviar imágenes" class="submit" disabled>
-    </form>
-
-    <div id="loader" class="center-loader" style="display: none"></div>
-    <script src="static\js\uploadImg.js"></script>
+    <header>
+        <img src="https://www.teknei.com/wp-content/uploads/2018/12/Teknei-logo-web.png" alt="Teknei Logo" class="logo">
+        <h1 id ="title" class = "title">Difuminar caras y matrículas</h1>
+    </header>
+    <main>
+        <form id="myForm" action="/detector/response/" method="post"  data-animation="fadeInUp" data-delay="0" enctype="multipart/form-data">
+            <input type="file" id="files" name="files" accept="image/*" multiple onchange="FileDetails()">
+            <p id="text">Arrastra aquí o haz click para subir imágenes.</p>
+            <input id = "submit" type="submit" name="submit" value="Enviar imágenes" class="submit" disabled>
+        </form>
+        <div id="loader" class="center-loader" style="display: none"></div>
+        <script src="static\js\uploadImg.js"></script>
+        <script src="..\..\static\js\uploadImg.js"></script>
+    </main>
 </body>

@@ -30,12 +30,23 @@ def detector(request: Request):
 @app.post("/detector/response/",  response_class=HTMLResponse)
 def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     
+    yoloAnnotations = relative + os.path.sep + "runs" + os.path.sep + "detect" + os.path.sep + "predict" + os.path.sep + "labels"
+    yoloAnnotations2 = relative + os.path.sep + "static" + os.path.sep + "annotationResults"
+    for f in os.listdir(yoloAnnotations2):
+        os.remove(os.path.join(yoloAnnotations2, f))
+    
+    resultsPath = relative + os.path.sep + "static" + os.path.sep + "results"
+    for f in os.listdir(resultsPath):
+        os.remove(os.path.join(resultsPath, f))
+    
     zipPath = relative + os.path.sep + "static" + os.path.sep + "detections.zip"
     if os.path.exists(zipPath):
         os.remove(zipPath)
 
+    filenames = []
     #iterate in all the files recieved in order to detect and hide the plates and faces.
     for file in files:
+        filenames.append(file.filename)
         path = "static" + os.path.sep  + "pictures" + os.path.sep + f'{file.filename}'
         with open( path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
@@ -49,9 +60,6 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     path = "detections.zip"
 
     #delete de results, picture files in case they exist
-    resultsPath = relative + os.path.sep + "static" + os.path.sep + "results"
-    for f in os.listdir(resultsPath):
-        os.remove(os.path.join(resultsPath, f))
     picPath = relative + os.path.sep + "static" + os.path.sep + "pictures"
     for f in os.listdir(picPath):
         os.remove(os.path.join(picPath, f))
@@ -60,7 +68,7 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     for f in os.listdir(yoloAnnotations):
         os.rename(os.path.join(yoloAnnotations, f),os.path.join(yoloAnnotations2, f))
     shutil.rmtree(relative + os.path.sep + "runs", ignore_errors=False, onerror=None)
-    return templates.TemplateResponse("returnImg.html",{"request":request,"path": path})
+    return templates.TemplateResponse("returnImg.html",{"request":request,"path": path,"filenames":filenames})
 
 
     
