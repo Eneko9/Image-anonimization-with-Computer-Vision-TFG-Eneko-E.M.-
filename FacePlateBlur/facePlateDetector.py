@@ -2,12 +2,10 @@ import cv2
 import numpy as np
 import math
 import os
-import torch
-import traceback
 from ultralytics import YOLO
 
 relative = os.getcwd() + os.path.sep + "FacePlateBlur" #locals
-
+root = os.getcwd()
 def loadYolo(weights):
     model = YOLO(weights) #cargar el modelo de yolo
     return model

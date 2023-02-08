@@ -51,7 +51,7 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
         with open( path, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
         points, classes = fpd.detection(path,multiclassModel) #detect the objects in the image
-        img = fpd.hideObject(cv2.imread(path),points,classes) #hide the detecet objects 
+        img = fpd.hideObject(cv2.imread(path),points,classes) #hide the deteced objects 
         path =  relative + os.path.sep + "static" + os.path.sep + "results" + os.path.sep + f'{file.filename}'
         cv2.imwrite(path,img)
     

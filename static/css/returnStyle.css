@@ -36,12 +36,13 @@ height: 85px;
 }
 #imagenesSecundarias{ 
 display: flex; 
-justify-content: center; 
+justify-content: left; 
+max-width: 100%;
 margin-left: 5%;
 margin-right: 5%;
 margin-top: 20px;
 white-space: nowrap;
-overflow-y: hidden;
+overflow-x: scroll;
 -webkit-overflow-scrolling: touch;
 }
 .results{
