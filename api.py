@@ -2,7 +2,7 @@ from fastapi import FastAPI, File, UploadFile, Request, Form
 import shutil
 import os
 import cv2
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from pathlib import Path
@@ -71,4 +71,15 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
     return templates.TemplateResponse("returnImg.html",{"request":request,"path": path,"filenames":filenames})
 
 
+
+@app.post("detectImg",  response_class=FileResponse)
+def detectorResponse(request: Request, file:UploadFile = File(...)):
+
+    path = "static" + os.path.sep  + "pictures" + os.path.sep + f'{file.filename}'
     
+    points, classes = fpd.detection(path,multiclassModel) #detect the objects in the image
+    img = fpd.hideObject(cv2.imread(path),points,classes) #hide the deteced objects 
+    path =  relative + os.path.sep + "static" + os.path.sep + "results" + os.path.sep + f'{file.filename}'
+    cv2.imwrite(path,img)
+    
+    return FileResponse(path)
