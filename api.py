@@ -12,8 +12,7 @@ relative = os.getcwd()
 
 app = FastAPI()
 
-multiclassModel = fpd.loadYolo(r"FacePlateBlur\weights\v8\best3.pt")
-
+multiclassModel = fpd.loadYolo(r"FacePlateBlur\weights\v8\best4.pt")
 
 app.mount(
     "/static",
