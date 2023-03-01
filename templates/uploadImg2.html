@@ -15,6 +15,8 @@
         <form id="myForm" action="/detector/response/" method="post"  data-animation="fadeInUp" data-delay="0" enctype="multipart/form-data">
             <input type="file" id="files" name="files" accept="image/*" multiple onchange="FileDetails()">
             <p id="text">Arrastra aquí o haz click para subir imágenes.</p>
+            <input id = "save-consent" type = "checkbox" name="save_consent">
+            <label for="save-consent"> Consiento que los archivos que suba sean guardados con objetivos de mejora del modelo de IA. (OPCIONAL)</label><br>
             <input id = "submit" type="submit" name="submit" value="Enviar imágenes" class="submit" disabled>
         </form>
         <div id="loader" class="center-loader" style="display: none"></div>

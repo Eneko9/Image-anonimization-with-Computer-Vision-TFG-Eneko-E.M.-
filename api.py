@@ -27,7 +27,7 @@ def detector(request: Request):
     return templates.TemplateResponse("uploadImg2.html", {"request":request})
 
 @app.post("/detector/response/",  response_class=HTMLResponse)
-def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
+def detectorResponse(request: Request, files: List[UploadFile]= File(...),save_consent: bool = Form(False)):
     
     yoloAnnotations = relative + os.path.sep + "runs" + os.path.sep + "detect" + os.path.sep + "predict" + os.path.sep + "labels"
     yoloAnnotations2 = relative + os.path.sep + "static" + os.path.sep + "annotationResults"
@@ -60,6 +60,11 @@ def detectorResponse(request: Request, files: List[UploadFile]= File(...)):
 
     #delete de results, picture files in case they exist
     picPath = relative + os.path.sep + "static" + os.path.sep + "pictures"
+    if(save_consent):
+        #save the content of picPath in another directory called "user_uploaded_imgs"
+        userUploadedImgsPath = relative + os.path.sep + "static" + os.path.sep + "user_uploaded_imgs"
+        for f in os.listdir(picPath):
+            os.rename(os.path.join(picPath, f),os.path.join(userUploadedImgsPath, f))
     for f in os.listdir(picPath):
         os.remove(os.path.join(picPath, f))
     yoloAnnotations = relative + os.path.sep + "runs" + os.path.sep + "detect" + os.path.sep + "predict" + os.path.sep + "labels"
