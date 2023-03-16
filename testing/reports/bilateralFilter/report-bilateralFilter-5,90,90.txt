@@ -1,0 +1,491 @@
+-------------->IMAGES THAT CONTAIN AUTOBUSES (24 in total) 
+WARNING: The model has not detected one object (1) in image 133691378--624x416 .
+In image 133691378--624x416 there are 1 / 2 correct annotations.
+The precision in image 133691378--624x416 is 50.0 %
+··························
+In image 20180214134053_tuvisa_amp_w1200 there are 1 / 1 correct annotations.
+The precision in image 20180214134053_tuvisa_amp_w1200 is 100.0 %
+··························
+In image 23236732602_4ff8d5155a_b there are 1 / 1 correct annotations.
+The precision in image 23236732602_4ff8d5155a_b is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image 2XSUG5YPDC4R3G3AC4PEMZDYP4 .
+WARNING: The model has not detected one object (3) in image 2XSUG5YPDC4R3G3AC4PEMZDYP4 .
+WARNING: The model has not detected one object (4) in image 2XSUG5YPDC4R3G3AC4PEMZDYP4 .
+WARNING: The model has not detected one object (5) in image 2XSUG5YPDC4R3G3AC4PEMZDYP4 .
+In image 2XSUG5YPDC4R3G3AC4PEMZDYP4 there are 1 / 5 correct annotations.
+The precision in image 2XSUG5YPDC4R3G3AC4PEMZDYP4 is 20.0 %
+··························
+In image 44993064844_2df71a3c6c_b there are 1 / 1 correct annotations.
+The precision in image 44993064844_2df71a3c6c_b is 100.0 %
+··························
+In image 5-monbus-lugo-port there are 1 / 1 correct annotations.
+The precision in image 5-monbus-lugo-port is 100.0 %
+··························
+In image 50070867698_85860252d2_b there are 1 / 1 correct annotations.
+The precision in image 50070867698_85860252d2_b is 100.0 %
+··························
+In image aenor_emt_valencia_11junio_thumb_690 there are 1 / 1 correct annotations.
+The precision in image aenor_emt_valencia_11junio_thumb_690 is 100.0 %
+··························
+In image autobus0 there are 1 / 1 correct annotations.
+The precision in image autobus0 is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image autobus1 .
+In image autobus1 there are 1 / 2 correct annotations.
+The precision in image autobus1 is 50.0 %
+··························
+WARNING: The model has not detected one object (1) in image autobus10 .
+In image autobus10 there are 0 / 1 correct annotations.
+The precision in image autobus10 is 0.0 %
+··························
+WARNING: The model has not detected one object (4) in image autobus12 .
+In image autobus12 there are 3 / 4 correct annotations.
+The precision in image autobus12 is 75.0 %
+··························
+In image autobus2 there are 1 / 1 correct annotations.
+The precision in image autobus2 is 100.0 %
+··························
+WARNING: The model has not detected one object (1) in image Autobuses-U23358588261BsW-984x468@Hoy .
+WARNING: The model has not detected one object (3) in image Autobuses-U23358588261BsW-984x468@Hoy .
+WARNING: The model has not detected one object (4) in image Autobuses-U23358588261BsW-984x468@Hoy .
+In image Autobuses-U23358588261BsW-984x468@Hoy there are 1 / 4 correct annotations.
+The precision in image Autobuses-U23358588261BsW-984x468@Hoy is 25.0 %
+··························
+In image autobuses-urbanos there are 1 / 1 correct annotations.
+The precision in image autobuses-urbanos is 100.0 %
+··························
+WARNING: The model has not detected one object (3) in image f .
+In image f there are 2 / 3 correct annotations.
+The precision in image f is 66.66666666666666 %
+··························
+WARNING: The model has not detected one object (1) in image f .
+WARNING: The model has not detected one object (2) in image f .
+In image f there are 0 / 2 correct annotations.
+The precision in image f is 0.0 %
+··························
+In image JWD63TI7QBAJ3DPIWC7NPWGF4E there are 1 / 1 correct annotations.
+The precision in image JWD63TI7QBAJ3DPIWC7NPWGF4E is 100.0 %
+··························
+In image NACR7EFVSRP45M6AP77VIQX2SY there are 1 / 1 correct annotations.
+The precision in image NACR7EFVSRP45M6AP77VIQX2SY is 100.0 %
+··························
+In image photo-2022-04-06-15-50-05_1_7976-164925670624020 there are 1 / 1 correct annotations.
+The precision in image photo-2022-04-06-15-50-05_1_7976-164925670624020 is 100.0 %
+··························
+In image whatsappimage2020-07-16at11_56_14 there are 2 / 2 correct annotations.
+The precision in image whatsappimage2020-07-16at11_56_14 is 100.0 %
+··························
+/////////////////////////////////////
+The average precision in AUTOBUSES is 66.11111111111111% (21 / 24)
+/////////////////////////////////////
+-------------->IMAGES THAT CONTAIN CAMIONES (22 in total) 
+In image 1366_2000 there are 1 / 1 correct annotations.
+The precision in image 1366_2000 is 100.0 %
+··························
+In image 16379432225205 there are 2 / 2 correct annotations.
+The precision in image 16379432225205 is 100.0 %
+··························
+In image 3d2e198980adc3ee07d40dab63dfff096902cf41 there are 1 / 1 correct annotations.
+The precision in image 3d2e198980adc3ee07d40dab63dfff096902cf41 is 100.0 %
+··························
+In image 4a071c64184f6ed127d1b90fcde1a863_XL there are 1 / 1 correct annotations.
+The precision in image 4a071c64184f6ed127d1b90fcde1a863_XL is 100.0 %
+··························
+In image article-camiones-mas-potentes-103054-54e215b3b485c there are 2 / 2 correct annotations.
+The precision in image article-camiones-mas-potentes-103054-54e215b3b485c is 100.0 %
+··························
+In image article-camiones-mas-potentes-europa-2017-59a7fae49e1e4 there are 1 / 1 correct annotations.
+The precision in image article-camiones-mas-potentes-europa-2017-59a7fae49e1e4 is 100.0 %
+··························
+In image barriles-de-vino-en-el-viejo-camion-de-entrega-el-bodegon-de-juan-maria-canillas-de-acietuna-axarquia-malaga-andalucia-pnw3gf there are 1 / 1 correct annotations.
+The precision in image barriles-de-vino-en-el-viejo-camion-de-entrega-el-bodegon-de-juan-maria-canillas-de-acietuna-axarquia-malaga-andalucia-pnw3gf is 100.0 %
+··························
+In image camion-bundesliga-4 there are 1 / 1 correct annotations.
+The precision in image camion-bundesliga-4 is 100.0 %
+··························
+In image camion-Iveco-1 there are 1 / 1 correct annotations.
+The precision in image camion-Iveco-1 is 100.0 %
+··························
+In image Camion-renault there are 1 / 1 correct annotations.
+The precision in image Camion-renault is 100.0 %
+··························
+In image download (2) there are 1 / 1 correct annotations.
+The precision in image download (2) is 100.0 %
+··························
+In image f there are 1 / 1 correct annotations.
+The precision in image f is 100.0 %
+··························
+In image foto-articulo-fichero_30041_20220325 there are 1 / 1 correct annotations.
+The precision in image foto-articulo-fichero_30041_20220325 is 100.0 %
+··························
+In image gijon-impulsa-la-recogida-de-residuos-con-dos-nuevos-camiones there are 1 / 1 correct annotations.
+The precision in image gijon-impulsa-la-recogida-de-residuos-con-dos-nuevos-camiones is 100.0 %
+··························
+In image Historia-Avia-de-los-aviones-a-lo-camiones-autobuses there are 1 / 1 correct annotations.
+The precision in image Historia-Avia-de-los-aviones-a-lo-camiones-autobuses is 100.0 %
+··························
+In image images (2) there are 1 / 1 correct annotations.
+The precision in image images (2) is 100.0 %
+··························
+In image images (3) there are 2 / 2 correct annotations.
+The precision in image images (3) is 100.0 %
+··························
+In image La-historia-de-los-camiones-estadounidense-REO there are 1 / 1 correct annotations.
+The precision in image La-historia-de-los-camiones-estadounidense-REO is 100.0 %
+··························
+In image qIWxz there are 1 / 1 correct annotations.
+The precision in image qIWxz is 100.0 %
+··························
+In image volvo-trucks-y-dhl-probaran-camiones-pesados-electricos-1133696 there are 1 / 1 correct annotations.
+The precision in image volvo-trucks-y-dhl-probaran-camiones-pesados-electricos-1133696 is 100.0 %
+··························
+/////////////////////////////////////
+The average precision in CAMIONES is 90.9090909090909% (20 / 22)
+/////////////////////////////////////
+-------------->IMAGES THAT CONTAIN CARAS (41 in total) 
+WARNING: The model has not detected one object (2) in image 161ea875-4008-46ed-8432-5617e3b0e5b9_21-9-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (3) in image 161ea875-4008-46ed-8432-5617e3b0e5b9_21-9-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (4) in image 161ea875-4008-46ed-8432-5617e3b0e5b9_21-9-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (5) in image 161ea875-4008-46ed-8432-5617e3b0e5b9_21-9-aspect-ratio_default_0 .
+In image 161ea875-4008-46ed-8432-5617e3b0e5b9_21-9-aspect-ratio_default_0 there are 1 / 5 correct annotations.
+The precision in image 161ea875-4008-46ed-8432-5617e3b0e5b9_21-9-aspect-ratio_default_0 is 20.0 %
+··························
+WARNING: The model has not detected one object (2) in image 2020030517110650808 .
+WARNING: The model has not detected one object (3) in image 2020030517110650808 .
+WARNING: The model has not detected one object (4) in image 2020030517110650808 .
+WARNING: The model has not detected one object (5) in image 2020030517110650808 .
+In image 2020030517110650808 there are 3 / 7 correct annotations.
+The precision in image 2020030517110650808 is 42.857142857142854 %
+··························
+In image 220px-Chennai_street_children there are 2 / 2 correct annotations.
+The precision in image 220px-Chennai_street_children is 100.0 %
+··························
+In image 24c48708-87bd-47c9-93ed-4a567755cb7c_16-9-discover-aspect-ratio_default_0 there are 3 / 3 correct annotations.
+The precision in image 24c48708-87bd-47c9-93ed-4a567755cb7c_16-9-discover-aspect-ratio_default_0 is 100.0 %
+··························
+WARNING: The model has not detected one object (7) in image 490x_HERKO-PRESENTACIoN-1200 .
+In image 490x_HERKO-PRESENTACIoN-1200 there are 6 / 7 correct annotations.
+The precision in image 490x_HERKO-PRESENTACIoN-1200 is 85.71428571428571 %
+··························
+WARNING: The model has not detected one object (1) in image 60186fef03fbb .
+In image 60186fef03fbb there are 2 / 3 correct annotations.
+The precision in image 60186fef03fbb is 66.66666666666666 %
+··························
+WARNING: The model has not detected one object (8) in image 9247fb7a-5726-42a3-9db9-d760bceb3ea3_16-9-aspect-ratio_default_0 .
+In image 9247fb7a-5726-42a3-9db9-d760bceb3ea3_16-9-aspect-ratio_default_0 there are 7 / 8 correct annotations.
+The precision in image 9247fb7a-5726-42a3-9db9-d760bceb3ea3_16-9-aspect-ratio_default_0 is 87.5 %
+··························
+WARNING: The model has not detected one object (3) in image 9a9f2fb3-419b-43e5-be55-f052b9af1423_16-9-discover-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (4) in image 9a9f2fb3-419b-43e5-be55-f052b9af1423_16-9-discover-aspect-ratio_default_0 .
+In image 9a9f2fb3-419b-43e5-be55-f052b9af1423_16-9-discover-aspect-ratio_default_0 there are 4 / 6 correct annotations.
+The precision in image 9a9f2fb3-419b-43e5-be55-f052b9af1423_16-9-discover-aspect-ratio_default_0 is 66.66666666666666 %
+··························
+WARNING: The model has not detected one object (1) in image Almeida-saves-the-new-Central-Madrid-thanks-to-the-support-1280x720-1-1200x675 .
+WARNING: The model has not detected one object (2) in image Almeida-saves-the-new-Central-Madrid-thanks-to-the-support-1280x720-1-1200x675 .
+WARNING: The model has not detected one object (3) in image Almeida-saves-the-new-Central-Madrid-thanks-to-the-support-1280x720-1-1200x675 .
+WARNING: The model has not detected one object (4) in image Almeida-saves-the-new-Central-Madrid-thanks-to-the-support-1280x720-1-1200x675 .
+In image Almeida-saves-the-new-Central-Madrid-thanks-to-the-support-1280x720-1-1200x675 there are 0 / 4 correct annotations.
+The precision in image Almeida-saves-the-new-Central-Madrid-thanks-to-the-support-1280x720-1-1200x675 is 0.0 %
+··························
+WARNING: The model has not detected one object (2) in image Canal 33 Aqui Opinamos Todos AOT A5 Enrique Rioboo Jose Sevilla Antonio Miguel Carmona Sergio Fernandez Campamento Si AVV El Batan-1 .
+WARNING: The model has not detected one object (3) in image Canal 33 Aqui Opinamos Todos AOT A5 Enrique Rioboo Jose Sevilla Antonio Miguel Carmona Sergio Fernandez Campamento Si AVV El Batan-1 .
+In image Canal 33 Aqui Opinamos Todos AOT A5 Enrique Rioboo Jose Sevilla Antonio Miguel Carmona Sergio Fernandez Campamento Si AVV El Batan-1 there are 2 / 4 correct annotations.
+The precision in image Canal 33 Aqui Opinamos Todos AOT A5 Enrique Rioboo Jose Sevilla Antonio Miguel Carmona Sergio Fernandez Campamento Si AVV El Batan-1 is 50.0 %
+··························
+WARNING: The model has not detected one object (2) in image cantabria-carretera-Liencres .
+WARNING: The model has not detected one object (3) in image cantabria-carretera-Liencres .
+In image cantabria-carretera-Liencres there are 1 / 3 correct annotations.
+The precision in image cantabria-carretera-Liencres is 33.33333333333333 %
+··························
+In image ciclistas-barcelona_6_270x161 there are 1 / 1 correct annotations.
+The precision in image ciclistas-barcelona_6_270x161 is 100.0 %
+··························
+In image coches-diesel-keTG-U170362067245mJH-624x385@Las Provincias there are 1 / 1 correct annotations.
+The precision in image coches-diesel-keTG-U170362067245mJH-624x385@Las Provincias is 100.0 %
+··························
+WARNING: The model has not detected one object (1) in image corte-de-trafico-del-lateral-de-la-avenida-diagonal-de-barcelona-para-que-los-peatones-puedan-mantener-las-distancias-de-seguridad .
+WARNING: The model has not detected one object (2) in image corte-de-trafico-del-lateral-de-la-avenida-diagonal-de-barcelona-para-que-los-peatones-puedan-mantener-las-distancias-de-seguridad .
+In image corte-de-trafico-del-lateral-de-la-avenida-diagonal-de-barcelona-para-que-los-peatones-puedan-mantener-las-distancias-de-seguridad there are 0 / 2 correct annotations.
+The precision in image corte-de-trafico-del-lateral-de-la-avenida-diagonal-de-barcelona-para-que-los-peatones-puedan-mantener-las-distancias-de-seguridad is 0.0 %
+··························
+In image d3a5bf1d80cfedc7c17f8ca25a70a7c9 there are 3 / 3 correct annotations.
+The precision in image d3a5bf1d80cfedc7c17f8ca25a70a7c9 is 100.0 %
+··························
+WARNING: The model has not detected one object (1) in image DC0ED273-BCB0-C288-3C16C63BA77D821D .
+In image DC0ED273-BCB0-C288-3C16C63BA77D821D there are 1 / 2 correct annotations.
+The precision in image DC0ED273-BCB0-C288-3C16C63BA77D821D is 50.0 %
+··························
+WARNING: The model has not detected one object (1) in image e2d3db0c-3fa6-462e-af64-3f8ecb08e065_16-9-discover-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (4) in image e2d3db0c-3fa6-462e-af64-3f8ecb08e065_16-9-discover-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (5) in image e2d3db0c-3fa6-462e-af64-3f8ecb08e065_16-9-discover-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (6) in image e2d3db0c-3fa6-462e-af64-3f8ecb08e065_16-9-discover-aspect-ratio_default_0 .
+In image e2d3db0c-3fa6-462e-af64-3f8ecb08e065_16-9-discover-aspect-ratio_default_0 there are 2 / 6 correct annotations.
+The precision in image e2d3db0c-3fa6-462e-af64-3f8ecb08e065_16-9-discover-aspect-ratio_default_0 is 33.33333333333333 %
+··························
+WARNING: The model has not detected one object (2) in image eco-rallye-marza-300x225 .
+WARNING: The model has not detected one object (3) in image eco-rallye-marza-300x225 .
+In image eco-rallye-marza-300x225 there are 1 / 3 correct annotations.
+The precision in image eco-rallye-marza-300x225 is 33.33333333333333 %
+··························
+WARNING: The model has not detected one object (4) in image f .
+WARNING: The model has not detected one object (5) in image f .
+WARNING: The model has not detected one object (6) in image f .
+WARNING: The model has not detected one object (8) in image f .
+WARNING: The model has not detected one object (9) in image f .
+WARNING: The model has not detected one object (10) in image f .
+In image f there are 4 / 10 correct annotations.
+The precision in image f is 40.0 %
+··························
+WARNING: The model has not detected one object (3) in image f .
+WARNING: The model has not detected one object (4) in image f .
+WARNING: The model has not detected one object (5) in image f .
+WARNING: The model has not detected one object (6) in image f .
+In image f there are 2 / 6 correct annotations.
+The precision in image f is 33.33333333333333 %
+··························
+WARNING: The model has not detected one object (2) in image f .
+WARNING: The model has not detected one object (3) in image f .
+In image f there are 1 / 3 correct annotations.
+The precision in image f is 33.33333333333333 %
+··························
+WARNING: The model has not detected one object (4) in image f .
+In image f there are 3 / 4 correct annotations.
+The precision in image f is 75.0 %
+··························
+In image find-a-lady-friend there are 2 / 2 correct annotations.
+The precision in image find-a-lady-friend is 100.0 %
+··························
+In image fotonoticia_20160428184511_1200 there are 3 / 3 correct annotations.
+The precision in image fotonoticia_20160428184511_1200 is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image Gal_ManuelaCarmenaProyectoPaseoExtremadura_6-1500x1000 .
+In image Gal_ManuelaCarmenaProyectoPaseoExtremadura_6-1500x1000 there are 3 / 4 correct annotations.
+The precision in image Gal_ManuelaCarmenaProyectoPaseoExtremadura_6-1500x1000 is 75.0 %
+··························
+In image images (1) there are 1 / 1 correct annotations.
+The precision in image images (1) is 100.0 %
+··························
+In image Infancia-en-la-calle there are 4 / 4 correct annotations.
+The precision in image Infancia-en-la-calle is 100.0 %
+··························
+WARNING: The model has not detected one object (3) in image istockphoto-1155064264-612x612 .
+In image istockphoto-1155064264-612x612 there are 2 / 3 correct annotations.
+The precision in image istockphoto-1155064264-612x612 is 66.66666666666666 %
+··························
+WARNING: The model has not detected one object (1) in image los-menores-de-14-anos-salen-a-la-calle-tras-43-dias-de-confinamiento .
+WARNING: The model has not detected one object (2) in image los-menores-de-14-anos-salen-a-la-calle-tras-43-dias-de-confinamiento .
+WARNING: The model has not detected one object (3) in image los-menores-de-14-anos-salen-a-la-calle-tras-43-dias-de-confinamiento .
+WARNING: The model has not detected one object (8) in image los-menores-de-14-anos-salen-a-la-calle-tras-43-dias-de-confinamiento .
+In image los-menores-de-14-anos-salen-a-la-calle-tras-43-dias-de-confinamiento there are 4 / 8 correct annotations.
+The precision in image los-menores-de-14-anos-salen-a-la-calle-tras-43-dias-de-confinamiento is 50.0 %
+··························
+WARNING: The model has not detected one object (2) in image mascarillas-adolescentes .
+WARNING: The model has not detected one object (3) in image mascarillas-adolescentes .
+In image mascarillas-adolescentes there are 2 / 4 correct annotations.
+The precision in image mascarillas-adolescentes is 50.0 %
+··························
+WARNING: The model has not detected one object (6) in image mascarillas-corona-usos-kniB--1200x630@abc .
+WARNING: The model has not detected one object (10) in image mascarillas-corona-usos-kniB--1200x630@abc .
+WARNING: The model has not detected one object (12) in image mascarillas-corona-usos-kniB--1200x630@abc .
+WARNING: The model has not detected one object (14) in image mascarillas-corona-usos-kniB--1200x630@abc .
+In image mascarillas-corona-usos-kniB--1200x630@abc there are 10 / 14 correct annotations.
+The precision in image mascarillas-corona-usos-kniB--1200x630@abc is 71.42857142857143 %
+··························
+In image ninos-movil-k83E-U601340326687Y0H-624x385@La Verdad there are 3 / 3 correct annotations.
+The precision in image ninos-movil-k83E-U601340326687Y0H-624x385@La Verdad is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image pexels-antony-trivet-12919427 .
+WARNING: The model has not detected one object (3) in image pexels-antony-trivet-12919427 .
+In image pexels-antony-trivet-12919427 there are 1 / 3 correct annotations.
+The precision in image pexels-antony-trivet-12919427 is 33.33333333333333 %
+··························
+In image pexels-photo-1921266 there are 5 / 5 correct annotations.
+The precision in image pexels-photo-1921266 is 100.0 %
+··························
+In image photo-1617723843526-5acdabe4cb5a there are 1 / 1 correct annotations.
+The precision in image photo-1617723843526-5acdabe4cb5a is 100.0 %
+··························
+WARNING: The model has not detected one object (4) in image Proteccion-estetica-y-simbolo-de-identidad-estas-son-las-diferentes-caras-de-las-mascarillas .
+WARNING: The model has not detected one object (7) in image Proteccion-estetica-y-simbolo-de-identidad-estas-son-las-diferentes-caras-de-las-mascarillas .
+In image Proteccion-estetica-y-simbolo-de-identidad-estas-son-las-diferentes-caras-de-las-mascarillas there are 6 / 8 correct annotations.
+The precision in image Proteccion-estetica-y-simbolo-de-identidad-estas-son-las-diferentes-caras-de-las-mascarillas is 75.0 %
+··························
+In image que_luces_tenemos_en_un_vehiculo_y_cuando_se_utiliza_cada_una_17336_600 there are 2 / 2 correct annotations.
+The precision in image que_luces_tenemos_en_un_vehiculo_y_cuando_se_utiliza_cada_una_17336_600 is 100.0 %
+··························
+In image trendy-black-man-resting-on-street-stairs-and-looking-at-camera-photo there are 1 / 1 correct annotations.
+The precision in image trendy-black-man-resting-on-street-stairs-and-looking-at-camera-photo is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image vehiculo .
+WARNING: The model has not detected one object (3) in image vehiculo .
+In image vehiculo there are 1 / 3 correct annotations.
+The precision in image vehiculo is 33.33333333333333 %
+··························
+In image WF3POQEO2VIEFJA3TSZ2VXXJDE there are 3 / 3 correct annotations.
+The precision in image WF3POQEO2VIEFJA3TSZ2VXXJDE is 100.0 %
+··························
+/////////////////////////////////////
+The average precision in CARAS is 65.9959349593496% (40 / 41)
+/////////////////////////////////////
+-------------->IMAGES THAT CONTAIN COCHES (24 in total) 
+In image 0000370501 there are 4 / 4 correct annotations.
+The precision in image 0000370501 is 100.0 %
+··························
+In image 06-multas-municipales0-1280x720 there are 1 / 1 correct annotations.
+The precision in image 06-multas-municipales0-1280x720 is 100.0 %
+··························
+In image 16317092284354 there are 2 / 2 correct annotations.
+The precision in image 16317092284354 is 100.0 %
+··························
+In image 20220422-RENAULT-CONCESIONARIOS-NUEVA-IMAGEN-AMERICA-LATINA-01AA-750x518 there are 2 / 2 correct annotations.
+The precision in image 20220422-RENAULT-CONCESIONARIOS-NUEVA-IMAGEN-AMERICA-LATINA-01AA-750x518 is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image 4QUOMZQZVRA2VMPCJWJU2R7L54 .
+In image 4QUOMZQZVRA2VMPCJWJU2R7L54 there are 1 / 2 correct annotations.
+The precision in image 4QUOMZQZVRA2VMPCJWJU2R7L54 is 50.0 %
+··························
+WARNING: The model has not detected one object (2) in image 686dc0c4-e794-4658-86a4-fcb22d721ffd_16-9-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (3) in image 686dc0c4-e794-4658-86a4-fcb22d721ffd_16-9-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (4) in image 686dc0c4-e794-4658-86a4-fcb22d721ffd_16-9-aspect-ratio_default_0 .
+WARNING: The model has not detected one object (5) in image 686dc0c4-e794-4658-86a4-fcb22d721ffd_16-9-aspect-ratio_default_0 .
+In image 686dc0c4-e794-4658-86a4-fcb22d721ffd_16-9-aspect-ratio_default_0 there are 1 / 5 correct annotations.
+The precision in image 686dc0c4-e794-4658-86a4-fcb22d721ffd_16-9-aspect-ratio_default_0 is 20.0 %
+··························
+In image a80cb539-7f80-49bb-82e8-dbd445a84b3f170222_Alfa-Romeo_Stelvio_12 there are 1 / 1 correct annotations.
+The precision in image a80cb539-7f80-49bb-82e8-dbd445a84b3f170222_Alfa-Romeo_Stelvio_12 is 100.0 %
+··························
+In image apertura-coches-vendidos_3_565x325 there are 4 / 4 correct annotations.
+The precision in image apertura-coches-vendidos_3_565x325 is 100.0 %
+··························
+WARNING: The model has not detected one object (3) in image auto_roma_94_3 .
+In image auto_roma_94_3 there are 2 / 3 correct annotations.
+The precision in image auto_roma_94_3 is 66.66666666666666 %
+··························
+WARNING: The model has not detected one object (1) in image concesionario kia en madrid  .
+WARNING: The model has not detected one object (2) in image concesionario kia en madrid  .
+WARNING: The model has not detected one object (3) in image concesionario kia en madrid  .
+In image concesionario kia en madrid  there are 0 / 3 correct annotations.
+The precision in image concesionario kia en madrid  is 0.0 %
+··························
+WARNING: The model has not detected one object (2) in image concesionario-audi-malaga-velazquez .
+WARNING: The model has not detected one object (3) in image concesionario-audi-malaga-velazquez .
+In image concesionario-audi-malaga-velazquez there are 1 / 3 correct annotations.
+The precision in image concesionario-audi-malaga-velazquez is 33.33333333333333 %
+··························
+In image download99 there are 1 / 1 correct annotations.
+The precision in image download99 is 100.0 %
+··························
+In image FAMILIA-ID-SLIDER-VW-1600x400 there are 4 / 4 correct annotations.
+The precision in image FAMILIA-ID-SLIDER-VW-1600x400 is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image foto-monoposte-6 .
+WARNING: The model has not detected one object (3) in image foto-monoposte-6 .
+WARNING: The model has not detected one object (4) in image foto-monoposte-6 .
+WARNING: The model has not detected one object (5) in image foto-monoposte-6 .
+In image foto-monoposte-6 there are 1 / 5 correct annotations.
+The precision in image foto-monoposte-6 is 20.0 %
+··························
+WARNING: The model has not detected one object (2) in image gt-motive-1 .
+WARNING: The model has not detected one object (4) in image gt-motive-1 .
+In image gt-motive-1 there are 2 / 4 correct annotations.
+The precision in image gt-motive-1 is 50.0 %
+··························
+In image images there are 1 / 1 correct annotations.
+The precision in image images is 100.0 %
+··························
+WARNING: The model has not detected one object (3) in image limites-ciudad .
+WARNING: The model has not detected one object (4) in image limites-ciudad .
+WARNING: The model has not detected one object (6) in image limites-ciudad .
+In image limites-ciudad there are 3 / 6 correct annotations.
+The precision in image limites-ciudad is 50.0 %
+··························
+WARNING: The model has not detected one object (3) in image multa-direccion-contraria-DriveSmart .
+In image multa-direccion-contraria-DriveSmart there are 2 / 3 correct annotations.
+The precision in image multa-direccion-contraria-DriveSmart is 66.66666666666666 %
+··························
+In image porsche-macan-turbo-808-04d702e00ae60759-1620743653 there are 1 / 1 correct annotations.
+The precision in image porsche-macan-turbo-808-04d702e00ae60759-1620743653 is 100.0 %
+··························
+In image Sanlucar-Victor-Mora-Policia-Local_1567053663_137436036_667x375 there are 2 / 2 correct annotations.
+The precision in image Sanlucar-Victor-Mora-Policia-Local_1567053663_137436036_667x375 is 100.0 %
+··························
+In image small-o there are 1 / 1 correct annotations.
+The precision in image small-o is 100.0 %
+··························
+In image turismos-km77com-1-1080x675 there are 1 / 1 correct annotations.
+The precision in image turismos-km77com-1-1080x675 is 100.0 %
+··························
+In image UZHINFQUYP5XJG7HB2GH7DODLY there are 2 / 2 correct annotations.
+The precision in image UZHINFQUYP5XJG7HB2GH7DODLY is 100.0 %
+··························
+/////////////////////////////////////
+The average precision in COCHES is 73.19444444444444% (23 / 24)
+/////////////////////////////////////
+-------------->IMAGES THAT CONTAIN MOTOS (19 in total) 
+In image 03-cambiar-porta-matriculas1-1280x720 there are 1 / 1 correct annotations.
+The precision in image 03-cambiar-porta-matriculas1-1280x720 is 100.0 %
+··························
+In image 4c4d99963af2adf5d5dea24116a1f8f5 there are 1 / 1 correct annotations.
+The precision in image 4c4d99963af2adf5d5dea24116a1f8f5 is 100.0 %
+··························
+In image 5399944951_9aca66a6a0 there are 1 / 1 correct annotations.
+The precision in image 5399944951_9aca66a6a0 is 100.0 %
+··························
+WARNING: The model has not detected one object (1) in image 5bY4LK2 .
+In image 5bY4LK2 there are 0 / 1 correct annotations.
+The precision in image 5bY4LK2 is 0.0 %
+··························
+In image 5fa43d504d02f there are 2 / 2 correct annotations.
+The precision in image 5fa43d504d02f is 100.0 %
+··························
+In image download (1) there are 1 / 1 correct annotations.
+The precision in image download (1) is 100.0 %
+··························
+In image download there are 1 / 1 correct annotations.
+The precision in image download is 100.0 %
+··························
+In image download98 there are 1 / 1 correct annotations.
+The precision in image download98 is 100.0 %
+··························
+In image grand-dink-330-ambiente-titanio-2-855x463 there are 1 / 1 correct annotations.
+The precision in image grand-dink-330-ambiente-titanio-2-855x463 is 100.0 %
+··························
+In image imagen-de-una-moto-donde-se-puede-ver-la-matricula-fuente-istock-aroundtheworld-photography there are 1 / 1 correct annotations.
+The precision in image imagen-de-una-moto-donde-se-puede-ver-la-matricula-fuente-istock-aroundtheworld-photography is 100.0 %
+··························
+In image IMG_1840 there are 1 / 1 correct annotations.
+The precision in image IMG_1840 is 100.0 %
+··························
+In image istock-1319469689 there are 1 / 1 correct annotations.
+The precision in image istock-1319469689 is 100.0 %
+··························
+In image matricula-moto-itv-1 there are 1 / 1 correct annotations.
+The precision in image matricula-moto-itv-1 is 100.0 %
+··························
+WARNING: The model has not detected one object (2) in image moto-sym-fiddle-chica_1440x655c .
+In image moto-sym-fiddle-chica_1440x655c there are 1 / 2 correct annotations.
+The precision in image moto-sym-fiddle-chica_1440x655c is 50.0 %
+··························
+WARNING: The model has not detected one object (1) in image noticia_12129 .
+In image noticia_12129 there are 0 / 1 correct annotations.
+The precision in image noticia_12129 is 0.0 %
+··························
+WARNING: The model has not detected one object (1) in image noticia_17711 .
+In image noticia_17711 there are 1 / 2 correct annotations.
+The precision in image noticia_17711 is 50.0 %
+··························
+In image operativas-fotografiada-pasado-miercoles-matricula_1298581458_91117705_667x375 there are 1 / 1 correct annotations.
+The precision in image operativas-fotografiada-pasado-miercoles-matricula_1298581458_91117705_667x375 is 100.0 %
+··························
+In image por-que-matricula-vamos_3_565x325 there are 1 / 1 correct annotations.
+The precision in image por-que-matricula-vamos_3_565x325 is 100.0 %
+··························
+In image scrambler_ducati_012 there are 1 / 1 correct annotations.
+The precision in image scrambler_ducati_012 is 100.0 %
+··························
+/////////////////////////////////////
+The average precision in MOTOS is 84.21052631578948% (19 / 19)
+/////////////////////////////////////
+-------------------------------------
+The average precision is 76.08422154795711 %

@@ -10,8 +10,11 @@ def loadYolo(weights):
     model = YOLO(weights) #cargar el modelo de yolo
     return model
 
-def detection(path, model):
-    results = model.predict(path, save=True, save_txt=True)#for testing, it saves the results in Yolo format in order to compare with expected results
+def detection(path, model, testing=False):
+    if testing:
+        results = model.predict(path, save=True, save_txt=True)#for testing, it saves the results in Yolo format in order to compare with expected results
+    elif not testing:
+        results = model.predict(path) #for production, it doesn't save the results
     #results = model.predict(path)
     positionsArray = []
     classArray = []
